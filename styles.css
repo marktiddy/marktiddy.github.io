@@ -26,8 +26,9 @@ body {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  width: 50vw;
-  height: 70vh;
+  min-width: 50vw;
+  max-width: 70vw;
+  min-height: 70vh;
   background: #2e4c7e;
   color: white;
   padding: 10px;
@@ -55,7 +56,7 @@ body {
 }
 
 .content-left img {
-  width: 70%;
+  max-width: 60%;
   text-align: center;
 }
 
@@ -107,7 +108,7 @@ body {
   margin: 1rem 1rem;
   color: #647db3;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e2a031), color-stop(50%, #2e4c7e));
   background: linear-gradient(to right, #e2a031 50%, #2e4c7e 50%);
   background-size: 200% 100%;

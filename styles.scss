@@ -32,8 +32,9 @@ body {
 .content {
   display:grid;
   text-align:center;
-  width: 50vw;
-  height: 70vh;
+  min-width: 50vw;
+  max-width: 70vw;
+  min-height: 70vh;
   background:$main-color;
   color:white;
   padding:10px;
@@ -51,7 +52,7 @@ body {
 }
 
 .content-left img {
-  width: 70%;
+  max-width: 60%;
   text-align: center;
 }
 .content-right {
@@ -94,7 +95,7 @@ body {
   margin: 1rem 1rem;
   color: $secondary-color;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   background: linear-gradient(to right, $tint-color 50%, $main-color 50%);
   background-size: 200% 100%;
   background-position: right bottom;
