@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +30,7 @@ body {
   min-width: 50vw;
   max-width: 70vw;
   min-height: 70vh;
-  background: #2e4c7e;
+  background: #002447;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -70,7 +71,7 @@ body {
 .content-right img {
   height: 40vh;
   border-radius: 150px;
-  border: 3px solid #e2a031;
+  border: 3px solid #fe8249;
   margin: 5px;
 }
 
@@ -79,9 +80,9 @@ body {
 }
 
 .content-left p {
-  color: #647db3;
-  font-size: 1.5em;
-  text-transform: uppercase;
+  color: #f9f9f9;
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }
 
 .about-social {
@@ -100,17 +101,22 @@ body {
   margin-top: 30px;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
 .btn {
   padding: 0.25rem 0.5rem;
-  border-right: 2px solid #e2a031;
-  border-left: 2px solid #e2a031;
+  border-right: 2px solid #fe8249;
+  border-left: 2px solid #fe8249;
   display: inline-block;
   margin: 1rem 1rem;
-  color: #647db3;
+  color: #f9f9f9;
   text-decoration: none;
   font-size: 1.2rem;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e2a031), color-stop(50%, #2e4c7e));
-  background: linear-gradient(to right, #e2a031 50%, #2e4c7e 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #fe8249), color-stop(50%, #002447));
+  background: linear-gradient(to right, #fe8249 50%, #002447 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   -webkit-animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
@@ -122,19 +128,19 @@ body {
 .btn:hover {
   background-position: left bottom;
   opacity: 0.9;
-  color: #2e4c7e;
+  color: #002447;
   cursor: pointer;
 }
 
 .fab {
   font-size: 30px;
-  color: #647db3;
+  color: #f9f9f9;
   -webkit-transition: all 500ms;
   transition: all 500ms;
 }
 
 .fa:hover, .fab:hover {
-  color: #e2a031;
+  color: #fe8249;
   cursor: pointer;
 }
 
